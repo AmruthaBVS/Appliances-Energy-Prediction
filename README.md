@@ -144,9 +144,14 @@ MODEL PERFORMANCE:
 CONCLUSION:
 
 ● Dataset doesn’t have any null values.
+
 ● We have observed very less co-relation between the target and feature variables.
+
 ● Dropped features like rv1 & rv2 as it has infinity VIF.
+
 ● Top 2 models were Extra Tree Regressor & Random Forest.
+
 ● Worked on Multi-Collinearity, but not much significant effect on the dataset.
+
 ● Tree based models are the best ones while dealing with features which has very less correlation with the target variable. 
 
