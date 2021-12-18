@@ -135,3 +135,18 @@ From the correlation graph we clearly observe that the features related to tempe
 Humidity outside have a strong negative correlation with temperature levels.
 
 Apart from that we observe that a couple features such as humidity at station, temperature outside the building and temperature in the living room have a comparatively high absolute correlation (above 0.12) with Appliances energy consumption.
+
+
+MODEL PERFORMANCE:
+
+![Capture3](https://user-images.githubusercontent.com/88664785/146652410-88757d0b-0fa1-4cce-a6f8-0127f48fd23e.PNG)
+
+CONCLUSION:
+
+● Dataset doesn’t have any null values.
+● We have observed very less co-relation between the target and feature variables.
+● Dropped features like rv1 & rv2 as it has infinity VIF.
+● Top 2 models were Extra Tree Regressor & Random Forest.
+● Worked on Multi-Collinearity, but not much significant effect on the dataset.
+● Tree based models are the best ones while dealing with features which has very less correlation with the target variable. 
+
