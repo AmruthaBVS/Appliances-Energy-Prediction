@@ -2,11 +2,11 @@
 
 In this time of global uncertainty world needs energy and in increasing quantities to support economic and social progress and build a better quality of life, in particular in developing countries. But even in today’s time there are many places especially in developing world where there are outages. These outages are primary because of excess load consumed by appliances at home. Heating and cooling appliances takes most power in house. In this project we will be analysing the appliance usage in the house gathered via home sensors. All readings are taken at 10 mins intervals for 4.5 months . The goal is to predict energy consumption by appliances . In the age of smart homes, ability to predict energy consumption can not only save money for end user but can also help in generating money for user by giving excess energy back to Grid (in case of solar panels usage). In this case regression analysis will be used to predict Appliance energy usage based on data collected from various sensors.
 
-# PROBLEM STATEMENT
+## PROBLEM STATEMENT
 
 We should predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure . In order to achieve this, we need to develop a supervised learning model using regression algorithms. Regression algorithms are used as data consist of continuous features and there are no identification of appliances in dataset
 
-# ATTRIBUTE INFORMATION
+## ATTRIBUTE INFORMATION
 
 date time year-month-day hour:minute:second
 
@@ -67,7 +67,7 @@ rv1, Random variable 1, nondimensional
 rv2, Random variable 2, nondimensional
 
 
-# DATA EXPLORATION
+## DATA EXPLORATION
 
 Number of instances: 19,735
 Number of attributes: 29
@@ -90,7 +90,7 @@ humid = {
     'RH_7' : 'ironing_humid', 'RH_8' : 'teen_humid', 'RH_9' : 'parents_humid', 'RH_out' : 'station_humid'
 }
 
-INSIGHTS FROM DATA VISUALIZATION:
+## INSIGHTS FROM DATA VISUALIZATION:
 
 Observations⚡:
 
@@ -137,11 +137,11 @@ Humidity outside have a strong negative correlation with temperature levels.
 Apart from that we observe that a couple features such as humidity at station, temperature outside the building and temperature in the living room have a comparatively high absolute correlation (above 0.12) with Appliances energy consumption.
 
 
-MODEL PERFORMANCE:
+## MODEL PERFORMANCE:
 
 ![Capture3](https://user-images.githubusercontent.com/88664785/146652410-88757d0b-0fa1-4cce-a6f8-0127f48fd23e.PNG)
 
-CONCLUSION:
+## CONCLUSION:
 
 ● Dataset doesn’t have any null values.
 
